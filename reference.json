@@ -1,0 +1,140 @@
+{
+  "buyer": {
+    "name": "Halden Robotics Inc.",
+    "address": "2200 Riverside Dr, Austin, TX 78741",
+    "ap_email": "ap@haldenrobotics.com"
+  },
+  "vendors": [
+    {
+      "id": "V-1001",
+      "name": "Brightline Industrial Supply",
+      "aliases": ["Brightline Industrial Supply Co.", "Brightline Supply"],
+      "tax_id": "74-2816390",
+      "status": "approved",
+      "email_domain": "brightlinesupply.com",
+      "phone": "+1 (512) 555-0143",
+      "bank": { "name": "JPMorgan Chase", "routing": "021000021", "account": "000123454821" },
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": "V-1002",
+      "name": "Kestrel Logistics LLC",
+      "aliases": ["Kestrel Logistics", "Kestrel Freight"],
+      "tax_id": "36-4410982",
+      "status": "approved",
+      "email_domain": "kestrel-logistics.com",
+      "phone": "+1 (312) 555-0178",
+      "bank": { "name": "BMO Bank", "routing": "071000288", "account": "3320019845" },
+      "payment_terms": "Net 15"
+    },
+    {
+      "id": "V-1003",
+      "name": "Orchid Office Co.",
+      "aliases": ["Orchid Office Company", "Orchid Office"],
+      "tax_id": "74-3301557",
+      "status": "approved",
+      "email_domain": "orchidoffice.com",
+      "phone": "+1 (512) 555-0122",
+      "bank": { "name": "Frost Bank", "routing": "114000093", "account": "550031277" },
+      "payment_terms": "Net 30"
+    },
+    {
+      "id": "V-1004",
+      "name": "Meridian Precision Parts",
+      "aliases": ["Meridian Precision Parts Inc.", "Meridian Precision"],
+      "tax_id": "38-2957740",
+      "status": "approved",
+      "email_domain": "meridianprecision.com",
+      "phone": "+1 (248) 555-0190",
+      "bank": { "name": "Comerica Bank", "routing": "072000096", "account": "1894420371" },
+      "payment_terms": "Net 45"
+    },
+    {
+      "id": "V-1005",
+      "name": "Vantage Print & Signage",
+      "aliases": ["Vantage Print"],
+      "tax_id": "74-1188420",
+      "status": "blocked",
+      "blocked_reason": "W-9 expired 2026-06-30; re-verification pending",
+      "email_domain": "vantageprint.com",
+      "phone": "+1 (512) 555-0109",
+      "bank": { "name": "Wells Fargo", "routing": "121000248", "account": "7719920031" },
+      "payment_terms": "Net 30"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "po": "PO-4500123", "vendor_id": "V-1001", "issued": "2026-10-20", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "Hex bolts M8 x 30mm, zinc plated", "qty": 2000, "unit_price": 0.42, "received": 2000 },
+        { "line": 2, "desc": "Nitrile safety gloves, box of 100", "qty": 300, "unit_price": 6.50, "received": 300 },
+        { "line": 3, "desc": "Cable ties 300mm, pack of 100", "qty": 50, "unit_price": 12.00, "received": 50 }
+      ]
+    },
+    {
+      "po": "PO-4500131", "vendor_id": "V-1004", "issued": "2026-10-02", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "CNC aluminum mounting bracket, 6061-T6", "qty": 400, "unit_price": 18.75, "received": 400 },
+        { "line": 2, "desc": "Machined steel drive shaft, 12mm", "qty": 200, "unit_price": 32.00, "received": 120 }
+      ]
+    },
+    {
+      "po": "PO-4500140", "vendor_id": "V-1002", "issued": "2026-09-08", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "LTL freight Chicago IL to Dallas TX", "qty": 3, "unit_price": 1160.00, "received": 3 },
+        { "line": 2, "desc": "Liftgate and inside delivery", "qty": 3, "unit_price": 266.6667, "received": 3 }
+      ]
+    },
+    {
+      "po": "PO-4500141", "vendor_id": "V-1002", "issued": "2026-11-01", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "Freight services, November (blanket)", "qty": 1, "unit_price": 6150.00, "received": 1 }
+      ]
+    },
+    {
+      "po": "PO-4500149", "vendor_id": "V-1003", "issued": "2026-10-28", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "Height-adjustable desk, 60in", "qty": 12, "unit_price": 720.00, "received": 0 },
+        { "line": 2, "desc": "Ergonomic task chair, mesh back", "qty": 12, "unit_price": 313.33, "received": 0 }
+      ]
+    },
+    {
+      "po": "PO-4500152", "vendor_id": "V-1003", "issued": "2026-11-03", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "Copy paper, letter, 10-ream case", "qty": 30, "unit_price": 38.50, "received": 30 },
+        { "line": 2, "desc": "Toner cartridge, HP 58A black", "qty": 4, "unit_price": 112.00, "received": 4 },
+        { "line": 3, "desc": "Whiteboard markers, 12-pack", "qty": 25, "unit_price": 9.80, "received": 25 }
+      ]
+    },
+    {
+      "po": "PO-4500163", "vendor_id": "V-1001", "issued": "2026-11-05", "status": "open",
+      "lines": [
+        { "line": 1, "desc": "Anti-fog safety glasses, ANSI Z87.1", "qty": 400, "unit_price": 7.25, "received": 400 },
+        { "line": 2, "desc": "Hi-vis safety vest, Class 2", "qty": 200, "unit_price": 11.40, "received": 200 },
+        { "line": 3, "desc": "Foam ear plugs, box of 200 pairs", "qty": 60, "unit_price": 32.00, "received": 60 }
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "invoice_no": "KL-2026-0917", "vendor_id": "V-1002", "po": "PO-4500140", "invoice_date": "2026-09-30",
+      "subtotal": 4280.00, "tax": 0, "total": 4280.00, "status": "paid", "paid_on": "2026-10-15",
+      "lines": [ { "po_line": 1, "qty": 3, "amount": 3480.00 }, { "po_line": 2, "qty": 3, "amount": 800.00 } ]
+    },
+    {
+      "invoice_no": "MPP-7781", "vendor_id": "V-1004", "po": "PO-4500131", "invoice_date": "2026-10-24",
+      "subtotal": 3750.00, "tax": 0, "total": 3750.00, "status": "approved", "paid_on": null,
+      "lines": [ { "po_line": 1, "qty": 200, "amount": 3750.00 } ]
+    },
+    {
+      "invoice_no": "BL-24790", "vendor_id": "V-1001", "po": "PO-4500098", "invoice_date": "2026-09-18",
+      "subtotal": 2214.00, "tax": 182.66, "total": 2396.66, "status": "paid", "paid_on": "2026-10-16",
+      "lines": []
+    },
+    {
+      "invoice_no": "OOC-55102", "vendor_id": "V-1003", "po": "PO-4500101", "invoice_date": "2026-09-25",
+      "subtotal": 986.40, "tax": 81.38, "total": 1067.78, "status": "paid", "paid_on": "2026-10-24",
+      "lines": []
+    }
+  ]
+}
